@@ -1,0 +1,13 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Push footer to bottom */
+  > :first-child {
+    flex: 1;
+    padding-top: 24px;
+  }
+}
