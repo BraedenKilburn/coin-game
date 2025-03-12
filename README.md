@@ -1,39 +1,93 @@
-# change-game
+# Make Exact Change Game
 
-This template should help get you started developing with Vue 3 in Vite.
+A fun and interactive educational game to help learn coin values and practice making exact change. Built with Vue 3 and TypeScript.
 
-## Recommended IDE Setup
+## 🎮 Game Description
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Players are presented with a random target amount (less than $1.00) and must select the correct combination of coins to match that amount exactly. The game features:
 
-## Type Support for `.vue` Imports in TS
+- Interactive coin selection with realistic coin graphics
+- Real-time feedback as you add or remove coins
+- Immediate validation of your solution
+- Clean, responsive design that works on all devices
+- Support for both mouse clicks and touch interactions
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Features
 
-## Customize configuration
+- **Intuitive Interface**: Click to add coins, right-click or use minus button to remove coins
+- **Real-time Feedback**: Instant feedback on whether you need more or fewer coins
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Accessibility**: Keyboard navigation and screen reader support
+- **Dark/Light Mode**: Automatically adapts to system preferences
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Technologies Used
 
-## Project Setup
+- Vue 3
+- TypeScript
+- Vite
+- SCSS
+- SVG Graphics
 
-```sh
+## 🏗️ Project Setup
+
+```bash
+# Install dependencies
 pnpm install
+
+# Start development server
+pnpm run dev
+
+# Build for production
+pnpm run build
+
+# Preview production build
+pnpm run preview
 ```
 
-### Compile and Hot-Reload for Development
+## 🎯 How to Play
 
-```sh
-pnpm dev
-```
+1. A random target amount between $0.01 and $0.99 will be displayed
+2. Click on coins to add them to your total
+3. Right-click or use the minus button to remove coins
+4. Match the exact amount to win
+5. Click "New Game" to try another amount
+6. Use "Clear" to reset your current selection
 
-### Type-Check, Compile and Minify for Production
+## 🪙 Available Coins
 
-```sh
-pnpm build
-```
+- Quarter ($0.25)
+- Dime ($0.10)
+- Nickel ($0.05)
+- Penny ($0.01)
 
-### Lint with [ESLint](https://eslint.org/)
+## 📱 Browser Support
 
-```sh
-pnpm lint
-```
+The game works on all modern browsers including:
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Coin SVG designs created for optimal visibility and interaction
+- Color scheme designed for accessibility and visual appeal
+- Educational game design inspired by common math learning objectives
+
+## 🔗 Links
+
+- [Live Demo](your-demo-link)
+- [GitHub Repository](your-repo-link)
+
+## 👤 Author
+
+Created by Braeden Kilburn
